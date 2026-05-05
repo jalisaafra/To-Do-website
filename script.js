@@ -3,7 +3,7 @@ const addBtn = document.getElementById("add-btn");
 const list = document.getElementById("todo-list");
 
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
-
+// Render todos
 // Render todos
 function renderTodos() {
   list.innerHTML = "";
